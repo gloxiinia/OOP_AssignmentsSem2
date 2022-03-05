@@ -1,0 +1,9 @@
+7)
+
+a) 8
+b) 4
+c) -13
+d) 3
+e) 2
+f) The variable result will not have a value, since it has not been initialized.
+But if you were to assign result2's value to result, it would have the value "jjjjjjxxx".
