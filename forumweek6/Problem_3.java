@@ -1,3 +1,4 @@
+package forumweek6;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.text.DecimalFormat;

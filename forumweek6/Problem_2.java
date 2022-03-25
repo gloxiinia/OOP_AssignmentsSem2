@@ -1,8 +1,8 @@
+package forumweek6;
 import java.util.Scanner;
 
-public class Problem_1 {
-    public static void PrintArray(){
-
+public class Problem_2 {
+    public static void printArrayInStars(){
         //creating objects for user input
         Scanner sc = new Scanner(System.in);
 
@@ -29,22 +29,20 @@ public class Problem_1 {
         //storing the user input in the items array
         for(int i=0; i<items.length; i++){  
             items[i]=sc.nextInt();
-        } 
+        }
 
-        //printing the contents of the array with a for loop
-        System.out.println("The contents of the array are: ");
-        System.out.print('[');
+        //printing the stars according to the array
+        System.out.println("The array contents look like this:");
         for(int i = 0; i < items.length; i++){
-            if (i != items.length - 1){
-                System.out.print(items[i]+ ", ");
-            }else{
-                System.out.print(items[i]+ "]");
+            System.out.print(i + ": ");
+            for(int j = 0; j < items[i]; j++){
+                System.out.print('*');
             }
+            System.out.println("("+ items[i] + ")");
         }
     }
 
-    //running the PrintArray method
     public static void main(String[] args){
-        PrintArray();
+        printArrayInStars();
     }
 }
