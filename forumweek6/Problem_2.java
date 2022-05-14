@@ -1,4 +1,4 @@
-package forumweek6;
+
 import java.util.Scanner;
 
 public class Problem_2 {
